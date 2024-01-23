@@ -5,6 +5,15 @@
 }
 
 :root {
+  --success-text-content: hsl(100, 60%, 20%);
+  --success-background: hsl(100, 60%, 80%);
+
+  --error-text-content: hsl(0, 60%, 20%);
+  --error-background: hsl(0, 60%, 80%);
+
+  --warning-text-content: hsl(45, 60%, 20%);
+  --warning-background: hsl(45, 60%, 80%);
+
   font-family: Inter, sans-serif;
   font-size: 1rem;
   line-height: 1.5rem;

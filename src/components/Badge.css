@@ -1,0 +1,21 @@
+.Badge {
+  display: inline-block;
+  padding: 0 0.5rem;
+  border-radius: 0.25rem;
+  color: var(--success-text-content);
+  background-color: var(--success-background);
+  font-size: 0.625rem;
+  line-height: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+
+  &.error {
+    color: var(--error-text-content);
+    background-color: var(--error-background);
+  }
+
+  &.warning {
+    color: var(--warning-text-content);
+    background-color: var(--warning-background);
+  }
+}
